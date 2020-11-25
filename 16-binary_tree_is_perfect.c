@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-#include <stdio.h>
 /**
  * binary_tree_is_perfect - function that checks if a binary tree is perfect
  *
@@ -38,7 +37,6 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	else
 		return (right_side + 1);
 }
-#include "binary_trees.h"
 /**
  * binary_tree_size - function that measures the size of a binary tree
  *
@@ -56,7 +54,6 @@ size_t binary_tree_size(const binary_tree_t *tree)
 	right = binary_tree_size(tree->right);
 	size_binary_tree = left + right + 1;
 	return (size_binary_tree);
-
 }
 /**
  * power -  a function that find a power of a number and a base
